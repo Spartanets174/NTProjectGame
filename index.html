@@ -133,7 +133,7 @@
         });
       }
 
-      <!-- function getUserData(){
+       function getUserData(){
         vkBridge.send("VKWebAppStorageGet",{"keys":["_save"]}).then(data =>{
         console.log(data);
         unityI.SendMessage('VKSDK', 'DataGetting', JSON.stringify(data));
@@ -154,7 +154,7 @@
         vkBridge.send('VKWebAppShowNativeAds',{ad_format:"reward"}).then(data => {
           console.log(data);
           unityI.SendMessage('VKSDK', 'RewardGetting',JSON.stringify(data.result));})
-      } -->
+      }
 
 
     </script>
